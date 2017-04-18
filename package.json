@@ -13,7 +13,7 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "build-local-watch": "cross-env NODE_ENV=production webpack --progress --hide-modules --watch",
     "watch": "webpack --progress --hide-modules --watch",
-    "prebuild": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "precommit": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "es": "babel src --presets babel-preset-es2015 --out-dir dist"
   },
   "keywords": [
@@ -37,6 +37,7 @@
     "cross-env": "^4.0.0",
     "css-loader": "^0.28.0",
     "file-loader": "^0.11.1",
+    "git-pre-commit": "^2.1.3",
     "hammerjs": "^2.0.8",
     "jasmine": "^2.5.3",
     "jasmine-core": "^2.5.2",
