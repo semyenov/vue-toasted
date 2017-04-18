@@ -5,7 +5,7 @@
   "author": "Shakeeb Sadikeen <shakee.zats@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakee93/vue-toasted.git"
+    "url": "https://github.com/semyemov/vue-toasted.git"
   },
   "main": "./dist/vue-toasted.min.js",
   "scripts": {
