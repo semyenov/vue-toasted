@@ -139,6 +139,13 @@ export default function (message, options) {
             toast.innerHTML = html;
         }
 
+        // Close button
+        var close = document.createElement('div');
+        close.innerHTML = '&times;'
+        close.addEventListener('click', toast.parentNode.removeChild(toast), false);
+        
+        toast.appendChild(close);
+
         // Bind hammer
         var hammerHandler = new Hammer(toast, {prevent_default: false});
         hammerHandler.on('pan', function (e) {
