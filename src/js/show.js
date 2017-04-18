@@ -142,7 +142,15 @@ export default function (message, options) {
         // Close button
         var close = document.createElement('div');
         close.innerHTML = '&times;'
-        close.addEventListener('click', toast.parentNode.removeChild(toast), false);
+        close.addEventListener(
+            'click',
+            function () {
+                if(toast.parentNode) {
+                    toast.parentNode.removeChild(toast);
+                }
+            },
+            false
+        );
         
         toast.appendChild(close);
 
