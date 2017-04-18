@@ -108,20 +108,20 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
   #toasted-container {
     min-width: 100%;
     bottom: 0%;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 576px) and (max-width: 991px) {
   #toasted-container {
     max-width: 90%;
   }
 }
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 576px) {
   #toasted-container {
     max-width: 86%;
 
@@ -163,20 +163,20 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
   .toasted {
     width: 100%;
     border-radius: 0;
   }
 }
 
-@media only screen and (min-width: 601px) and (max-width: 992px) {
+@media only screen and (min-width: 576px) and (max-width: 991px) {
   .toasted {
     float: left;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 992px) {
   .toasted {
     float: right;
   }
