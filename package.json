@@ -5,7 +5,7 @@
   "author": "Shakeeb Sadikeen <shakee.zats@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/semyemov/vue-toasted.git"
+    "url": "https://github.com/semyenov/vue-toasted/tarball/d6cb3cc463fc1f248aa4ca28526bf87281f6a074"
   },
   "main": "./dist/vue-toasted.min.js",
   "scripts": {
