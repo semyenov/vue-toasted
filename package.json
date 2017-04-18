@@ -1,11 +1,11 @@
 {
   "name": "vue-toasted",
   "description": "Responsive Touch Compatible Toast plugin for VueJS 2+",
-  "version": "1.0.27",
+  "version": "1.0.271",
   "author": "Shakeeb Sadikeen <shakee.zats@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/semyenov/vue-toasted/tarball/d6cb3cc463fc1f248aa4ca28526bf87281f6a074"
+    "url": "https://github.com/semyenov/vue-toasted.git"
   },
   "main": "./dist/vue-toasted.min.js",
   "scripts": {
