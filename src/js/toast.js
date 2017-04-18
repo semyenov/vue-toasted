@@ -1,4 +1,3 @@
-import ToastComponent from '../toast.vue';
 import show from './show';
 
 /**
@@ -15,7 +14,6 @@ let globalOptions = {};
 export const initPlugin = function (Vue, options) {
     Toast.setGlobalOptions(options);
     Toast.init();
-    Vue.component('toasted', ToastComponent);
     Vue.toasted = Vue.prototype.$toasted = Toast;
 };
 
