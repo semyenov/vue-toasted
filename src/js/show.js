@@ -141,7 +141,8 @@ export default function (message, options) {
 
         // Close button
         var close = document.createElement('div');
-        close.innerHTML = '&times;'
+        close.innerHTML = '&times;';
+        close.classList.add('close');
         close.addEventListener(
             'click',
             function () {
